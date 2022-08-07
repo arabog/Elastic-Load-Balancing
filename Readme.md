@@ -93,6 +93,11 @@ Verify that the Apache server is running successfully on both the EC2 instances.
 http://54.226.12.70  
 http://52.202.155.208  
 
+![test-page1](test-page1.png?raw=true "test-page1")
+
+![test-page2](test-page2.png?raw=true "test-page2")
+
+
 
 **Note:** We have opened the HTTP traffic on the default port, therefore the public IPv4 address should be prepended with http://, instead of https://.
 
@@ -101,6 +106,7 @@ View the content of the PHP page that you configured using the shell script.
 http://54.226.12.70/phpinfo.php  
 http://52.202.155.208/phpinfo.php  
 
+![php1](php1.png?raw=true "php1")
 
 ## Step 4. Create an NLB
 Select the Load Balancers service on the left-hand side menu of the EC2 dashboard, and click on the Create Load Balancer button.
